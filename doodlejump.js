@@ -107,11 +107,11 @@ function update() {
 }
 
 function moveDoodler(e) {
-    if (e.code == "ArrowRight" || e.code == "keyD") {
+    if (e.code == "ArrowRight" || e.code == "KeyD") {
         velocityX = 4
         doodler.img = doodlerRightImg
     }
-    else if (e.code == "ArrowLeft" || e.code == "keyA") {
+    else if (e.code == "ArrowLeft" || e.code == "KeyA") {
         velocityX = -4
         doodler.img = doodlerLeftImg
     }
